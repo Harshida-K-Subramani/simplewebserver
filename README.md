@@ -41,14 +41,14 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <html>
 <head>
-    <h1='CENTRE'><b>LIST OF PROTOCOLS</b></h1>
-        <h2>NAME:HARSHIDA K S<br> 
-     REF NO:24900060</h2>
+    <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;";";" align="center"><b>LIST OF PROTOCOLS</b></h1>
+    <center><h4>NAME: HARSHIDA K S<br> 
+     REF NO: 212224040108</h4></center>
 
     <title>TCP/IP Protocol Suite</title>
 </head>
-<body>
-    <h1>TCP/IP Protocol Suite</h1>
+<body style="background-color: rgb(189, 241, 243);">
+    <h2 style="color: rgb(20, 28, 115);">Application Layer</h2>
     <ol>
         <li>HTTP</li>
         <li>FTP</li>
@@ -57,6 +57,26 @@ content = """
         <li>Telnet</li>
         <li>DNS</li>
     </ol>
+    <h2 style="color: rgb(20, 28, 115);">Transport Layer</h2>
+    <ol>
+        <li>TCP</li>
+        <li>UDP</li>
+    </ol>
+    <h2 style="color: rgb(20, 28, 115);">Internet layer</h2>
+    <ol>
+        <li>ICMP</li>
+        <li>IGMP</li>
+        <li>APR</li>
+        <li>IPv4</li>
+        <li>IPv6</li>
+    </ol>
+    <h2 style="color: rgb(20, 28, 115);">Network Access layer</h2>
+    <ol>
+        <li>MAC/Ethernet</li>
+        <li>FDDI</li>
+        <li>Frame Relay</li>
+    </ol>
+    
 </body>
 </html>
 """
